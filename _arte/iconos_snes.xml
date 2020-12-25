@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+<!--  <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./_arte/iconsW8-Metro/Kodi.png</iconKodi>
+      <iconSystem>./_arte/iconsW8-Metro/System.png</iconSystem>
+      <iconUpdates>./_arte/iconsW8-Metro/Updates.png</iconUpdates>
+      <iconGames>./_arte/iconsW8-Metro/Games.png</iconGames>
+      <iconControllers>./_arte/iconsW8-Metro/Controllers.png</iconControllers>
+      <iconUI>./_arte/iconsW8-Metro/UI.png</iconUI>
+      <iconSound>./_arte/iconsW8-Metro/Sound.png</iconSound>
+      <iconNetwork>./_arte/iconsW8-Metro/Network.png</iconNetwork>
+      <iconScraper>./_arte/iconsW8-Metro/Scraper.png</iconScraper>
+      <iconAdvanced>./_arte/iconsW8-Metro/Advanced.png</iconAdvanced>
+      <iconQuit>./_arte/iconsW8-Metro/Quit.png</iconQuit>
+      <iconRestart>./_arte/iconsW8-Metro/Restart.png</iconRestart>
+      <iconShutdown>./_arte/iconsW8-Metro/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./_arte/iconsW8-Metro/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./_arte/iconsW8-Metro/Contest.png</iconRetroachievements>
+    </menuIcons>
+  </view> -->
+  
+ <view name="menu, system, basic, detailed, grid">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<textColor>${pauseColorTexto}</textColor>
+			<iconUpDown>./_arte/iconsets/snes/updown.png</iconUpDown>
+			<iconLeftRight>./_arte/iconsets/snes/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./_arte/iconsets/snes/all.png</iconUpDownLeftRight>
+			<iconA>./_arte/iconsets/snes/a.png</iconA>
+			<iconB>./_arte/iconsets/snes/b.png</iconB>
+			<iconX>./_arte/iconsets/snes/x.png</iconX>
+			<iconY>./_arte/iconsets/snes/y.png</iconY>
+			<iconL>./_arte/iconsets/snes/l.png</iconL>
+			<iconR>./_arte/iconsets/snes/r.png</iconR>
+			<iconStart>./_arte/iconsets/snes/start.png</iconStart>
+			<iconSelect>./_arte/iconsets/snes/select.png</iconSelect>
+		</helpsystem>			
+ </view>  
+
+</theme>

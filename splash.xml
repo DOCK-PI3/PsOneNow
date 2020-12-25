@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+## ORIGINAL THEME ##
+Theme: Carbon
+##########################
+## EDITADO POR DOCK-PI3 ##
+##########################
+Theme: CAPCOM FOR BATOCERA
+version: 1.5
+author: Mabe (mabedeep), (DOCK-PI3)
+license: creative commons CC-BY-NC-SA
+originally based on: "Carbon" by Eric Hettervik (Rookervik)
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="splash">
+
+    <splash name="splash">
+      <backgroundColor>202020FF</backgroundColor>
+    </splash>
+   
+    <image name="progressbar">
+      <color>BFBF00BF</color>
+	  <pos>0.27 0.51</pos>
+	  <origin>0 0</origin>
+    </image>
+    <image name="sub_progressbar" extra="true">
+      <!-- <color>DF2000DF</color> -->
+	  <pos>0.275 0.508</pos>
+	  <origin>0 0</origin>
+	  <tile>true</tile>
+	  <path>./_arte/imgs/Progress_bar_black.png</path>
+	  <size>0.5 0.04</size>
+	  <zIndex>95</zIndex>
+    </image>
+    <image name="progressbar:active">
+      <color>DF2000DF</color>
+    </image>
+   
+    <image name="background">
+      <size>1 1</size>
+	  <pos>0 0</pos>
+      <origin>0 0</origin>
+	  <path>./_arte/imgs/fondo-SPLASH.png</path>
+    </image>
+
+    <image name="logoBatocera" extra="true">
+      <size>0.11 0.15</size>
+	  <pos>0.820 0.015</pos>
+      <origin>0 0</origin>
+	  <path>./_arte/imgs/logo_BATOCERA_WIKI.png</path>
+	  <zIndex>180</zIndex>
+    </image>
+
+    <text name="label">
+      <fontPath>./_arte/SONY-Regular.otf</fontPath>
+      <color>DF2000DF</color>
+	  <pos>0.02 0.428</pos>
+	  <origin>0 0</origin>
+      <glowColor>000000df</glowColor>
+      <glowSize>1</glowSize>
+	  <forceUppercase>true</forceUppercase>
+    </text>
+
+  </view>
+</theme>

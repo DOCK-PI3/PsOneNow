@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <carousel name="systemcarousel">
+      <type>horizontal_wheel</type>
+	  <logoSize>0.12 0.17</logoSize>
+	  <logoRotation>15.5</logoRotation>
+	  <logoRotationOrigin>-0.25 5.5</logoRotationOrigin>
+	  <maxLogoCount>5</maxLogoCount>
+	  <logoScale>2</logoScale>
+	  <color>FAFAFF00</color>
+      <colorEnd>FAFAFF00</colorEnd>
+      <!-- <systemInfoDelay>300</systemInfoDelay> -->
+      <zIndex>150</zIndex>
+      <pos>0 0.055</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+    </carousel>
+
+    <video name="staticBackgroundVideo">
+      <path>./_arte/bgv-sistemas/NoCopyrightVideo2.mp4</path>
+    </video>
+	
+    <text name="systemInfo">
+      <pos>0 -0.045</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>1</glowSize>
+      <fontSize>0.025</fontSize>
+	  <fontPath>./_arte/knight-rider.TTF</fontPath>
+	  <zIndex>155</zIndex>
+	  <!-- <reflexion>0.17 0.0</reflexion> -->
+    </text>
+    <image name="logoplaystation" extra="true">
+      <size>0.16 0.15</size>
+	  <pos>0.875 -0.005</pos>
+      <origin>0 0</origin>
+	  <path>./_arte/imgs/IcFNjm3.png</path>
+	  <zIndex>180</zIndex>
+    </image>
+
+    <image name="Consolas" extra="true">
+      <path>./../consoles/default.png</path>
+      <path>./../consoles/${system.theme}.png</path>
+      <linearSmooth>true</linearSmooth>
+      <size>0.2 0</size>
+	  <pos>0.74 0.235</pos>
+	  <origin>0 0</origin>
+      <color>FFFFFFF0</color>
+      <zIndex>21</zIndex>
+    </image>
+	
+  </view>
+</theme>

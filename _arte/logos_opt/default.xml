@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+
+    <text name="logoText">
+	  <fontSize>0.055</fontSize>
+	  <fontPath>./_arte/knight-rider.TTF</fontPath>
+      <color>${baseColor}</color>
+	  <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <zIndex>140</zIndex>
+	  <forceUppercase>1</forceUppercase>
+    </text>
+
+  </view>
+</theme>

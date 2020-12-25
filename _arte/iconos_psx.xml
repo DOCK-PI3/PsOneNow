@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+<!--  <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./_arte/icons2/Kodi.png</iconKodi>
+      <iconSystem>./_arte/icons2/System.png</iconSystem>
+      <iconUpdates>./_arte/icons2/Updates.png</iconUpdates>
+      <iconGames>./_arte/icons2/Games.png</iconGames>
+      <iconControllers>./_arte/icons2/Controllers.png</iconControllers>
+      <iconUI>./_arte/icons2/UI.png</iconUI>
+      <iconSound>./_arte/icons2/Sound.png</iconSound>
+      <iconNetwork>./_arte/icons2/Network.png</iconNetwork>
+      <iconScraper>./_arte/icons2/Scraper.png</iconScraper>
+      <iconAdvanced>./_arte/icons2/Advanced.png</iconAdvanced>
+      <iconQuit>./_arte/icons2/Quit.png</iconQuit>
+      <iconRestart>./_arte/icons2/Restart.png</iconRestart>
+      <iconShutdown>./_arte/icons2/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./_arte/icons2/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./_arte/icons2/Contest.png</iconRetroachievements>
+    </menuIcons>
+  </view> -->
+  
+  	<view name="menu, system, basic, detailed, grid">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<textColor>${pauseColorTexto}</textColor>
+			<iconUpDown>./_arte/iconsets/psx/updown.png</iconUpDown>
+			<iconLeftRight>./_arte/iconsets/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./_arte/iconsets/psx/all.png</iconUpDownLeftRight>
+			<iconA>./_arte/iconsets/psx/a.png</iconA>
+			<iconB>./_arte/iconsets/psx/b.png</iconB>
+			<iconX>./_arte/iconsets/psx/x.png</iconX>
+			<iconY>./_arte/iconsets/psx/y.png</iconY>
+			<iconL>./_arte/iconsets/psx/l.png</iconL>
+			<iconR>./_arte/iconsets/psx/r.png</iconR>
+			<iconStart>./_arte/iconsets/psx/start.png</iconStart>
+			<iconSelect>./_arte/iconsets/psx/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+  
+</theme>

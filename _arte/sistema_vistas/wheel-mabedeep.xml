@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <variables>
+	<mconsolaswheel>0.008 0.485</mconsolaswheel>
+  </variables>
+  <view name="system">
+    <video name="videobox" extra="true">
+      <origin>0 0</origin>
+	  <pos>0.155 0.20</pos>
+	  <size>0.35 0.34</size>
+      <maxSize>0.36 0.35</maxSize>
+	        <path>./_arte/bgv-sistemas/PACK/${system.theme}.mp4</path>
+	   <zIndex>193</zIndex>	
+    </video>
+    <image name="logoplaystation" extra="true">
+      <size>0.16 0.15</size>
+	  <pos>0.875 -0.005</pos>
+      <origin>0 0</origin>
+	  <path>./_arte/imgs/IcFNjm3.png</path>
+	  <zIndex>180</zIndex>
+    </image>
+	<!-- if system2 exists, take this version -->
+<!--     <image name="logo">
+      <path>./../../${system.theme}/art/system2.svg</path>
+    </image> -->
+    <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+		<pos>0 -0.015</pos>
+        <size>1 1</size>
+        <logoScale>1.25</logoScale>
+        <logoSize>0.29 0.15</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+        <logoRotation>7.5</logoRotation>
+		<logoRotationOrigin>5.0 -0.5</logoRotationOrigin>
+		<logoAlignment>right</logoAlignment>
+        <zIndex>43</zIndex>	 
+	</carousel>
+
+<!--    <image name="darkwheel" extra="static">
+      <tile>false</tile>
+      <pos>0.22 0.25</pos>        
+      <size>0.43 0.36</size>
+      <origin>0.5 0.5</origin>
+      <path>./../darkwheel.png</path>      
+      <zIndex>12</zIndex>
+    </image> -->
+   
+   
+<!--    <image name="background" extra="static">
+      <path>${backgroundImage_C}</path>
+		<zIndex>11</zIndex>
+    </image> -->
+    <video name="staticBackgroundVideo">
+      <path>./_arte/bgv-sistemas/wheel-playback.mp4</path>
+    </video>
+
+    <text name="systemInfo">
+      <pos>0.007 0.685</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <reflexion>0.15 0.0</reflexion>
+    </text>
+    <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <size>0.40 1</size>
+      <pos>0.2 1</pos>
+      <origin>1 1</origin>
+      <path>./../centerfade_v.png</path>
+      <color>${centerFadeColor}</color>
+      <zIndex>11</zIndex>
+    </image>
+    <image name="ControllerOverlay" extra="true">
+      <tile>false</tile>
+	  <pos>0.0005 0.40</pos>
+      <size>0.40 0</size>
+    </image>
+
+
+  </view>
+</theme>

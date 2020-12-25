@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <carousel name="systemcarousel">
+      <type>horizontal</type>
+	  <logoSize>0.325 0.225</logoSize>
+	  <maxLogoCount>3</maxLogoCount>
+	  <logoScale>1.8</logoScale>
+	  <color>FAFAFF00</color>
+      <colorEnd>FAFAFF00</colorEnd>
+      <systemInfoDelay>300</systemInfoDelay>
+      <zIndex>20</zIndex>
+      <pos>0 0.085</pos>
+      <size>1 0.42</size>
+      <origin>0 0</origin>
+    </carousel>
+
+    <video name="staticBackgroundVideo">
+      <path>./_arte/bgv-sistemas/FuturisticTechnologyMachine.mp4</path>
+    </video>
+
+    <image name="Consolas" extra="true">
+      <path>./../consoles/default.png</path>
+      <path>./../consoles/${system.theme}.png</path>
+      <linearSmooth>true</linearSmooth>
+      <size>0.45 0</size>
+	  <pos>0.075 0.285</pos>
+	  <origin>0 0</origin>
+      <color>FFFFFFF0</color>
+      <zIndex>21</zIndex>
+    </image>
+	
+    <image name="logoplaystation" extra="true">
+      <size>0.16 0.15</size>
+	  <pos>0.875 -0.005</pos>
+      <origin>0 0</origin>
+	  <path>./_arte/imgs/IcFNjm3.png</path>
+	  <zIndex>180</zIndex>
+    </image>
+  </view>
+</theme>
