@@ -1906,6 +1906,258 @@ Opaque                                         Translucide                      
     </datetime>	
   </customView>
  
+ <customView name="PS Cabinet Now skraperUI" inherits="Color only">
+    <image name="menu_top_alt" extra="true">
+      <tile>true</tile>
+      <pos>0.011 0.198</pos>
+      <origin>0 0</origin>
+      <size>0.28 0.01</size>
+      <color>c80000</color>
+	  <colorEnd>60FFBF00</colorEnd>
+	  <gradientType>vertical</gradientType>
+	  <path>./_arte/bottom.png</path>
+	  <zIndex>98</zIndex>
+    </image>
+    <image name="menu_bottom_alt" extra="true">
+      <tile>true</tile>
+      <pos>0.011 0.915</pos>
+      <origin>0 0</origin>
+      <size>0.28 0.01</size>
+      <color>60FFBF00</color>
+	  <colorEnd>c80000</colorEnd>
+	  <gradientType>vertical</gradientType>
+	  <!-- <flipY>true</flipY> -->
+	  <path>./_arte/bottom.png</path>
+	  <zIndex>98</zIndex>
+    </image>
+	<video name="md_video">
+	  <default>./_arte/bgv-sistemas/splash-batocera29-ps-original.mp4</default>
+      <pos>0.386 0.385</pos>
+	  <size>0.35 0.47</size>
+      <maxSize>0.35 0.47</maxSize>
+      <origin>0 0</origin>
+      <delay>none</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <!-- <loops>0</loops> -->
+    </video>
+    <image name="md_image">
+	<pos>0.386 0.385</pos>
+	<origin>2 2</origin>
+	<default>./_arte/imgs/img_default.png</default>
+	<!-- <size>0.34 0.45</size> -->
+		  <storyboard>
+          <animation property="rotation" from="0" to="360" duration="600" mode="linear" repeat="forever"/>
+          <!-- <animation property="scale" from="0" to="1" begin="750" duration="12000" mode="easeOut" repeat="forever"/>  -->
+          
+       <!--   <animation property="y" from="0.75" begin="750" duration="250" mode="easeOut"/> -->
+        </storyboard>
+    </image>
+
+    <image name="logoplaystation" extra="true">
+      <size>0.16 0.15</size>
+	  <pos>0.875 -0.005</pos>
+      <origin>0 0</origin>
+	  <path>./_arte/imgs/IcFNjm3.png</path>
+	  <zIndex>180</zIndex>
+    </image>
+
+    <image name="playstation-cabinet" extra="true">
+      <size>0.888 0.89</size>
+	  <pos>0.305 0.15</pos>
+      <origin>0 0</origin>
+	  <path>./_arte/imgs/cabinet-Playstation.png</path>
+	  <zIndex>180</zIndex>
+    </image>
+    <video name="videomarque-cabinet-default" extra="true">
+      <path>./_arte/bgv-sistemas/cabinet_marquevideodefault.mp4</path>
+	  <pos>0.355 0.154</pos>
+      <origin>0 0</origin>
+	  <size>0.406 0.185</size>
+	  <zIndex>108</zIndex>
+    </video>
+
+    <image name="md_fanart">
+	 <pos>2 2</pos>
+	 <origin>0 0</origin>
+	 <color>cccccc8C</color>
+	 <default>./_arte/imgs/img_default.png</default>
+	 <size>1 1</size>
+	 <zIndex>88</zIndex>
+    </image>
+	
+    <image name="md_marquee">
+	<pos>0.567 0.248</pos>
+	<size>0.285 0.12</size>
+	<maxSize>0.285 0.2</maxSize>
+	<zIndex>118</zIndex>
+    </image>
+    <image name="md_logo">
+	<pos>0.567 0.248</pos>
+	<size>0.285 0.12</size>
+	<maxSize>0.285 0.2</maxSize>
+	<zIndex>118</zIndex>
+    </image>
+    <image name="md_thumbnail">
+	<origin>0 0</origin>
+	<pos>0.775 0.16</pos>
+	<!-- <default>./_arte/imgs/img_default.png</default> -->
+	<size>0.22 0</size>
+	<maxSize>0.255 0.255</maxSize>
+	<reflexion>none</reflexion>
+	<reflexionOnFrame>0</reflexionOnFrame>
+	<zIndex>95</zIndex>
+		<storyboard>
+          <animation property="rotation" from="0" to="360" duration="1800" mode="linear" repeat="forever"/>
+          <!-- <animation property="scale" from="0" to="1" begin="750" duration="12000" mode="easeOut" repeat="forever"/>  -->
+          
+       <!--   <animation property="y" from="0.75" begin="750" duration="250" mode="easeOut"/> -->
+        </storyboard>
+    </image>
+	<text name="md_description">
+      <pos>0.37 0.015</pos>
+      <size>0.375 0.12</size>    
+      <color>ffffff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./_arte/SONY-Regular.otf</fontPath>
+      <fontSize>0.031</fontSize>
+    </text>	
+ <image name="mabe_players" extra="true">
+	<pos>0.275 0.665</pos>
+	<path>${players_ruta}${system.theme}.png</path>
+	<size>0.12 0.33</size>
+	<maxSize>0.125 0.231</maxSize>
+	<zIndex>198</zIndex>
+ </image>
+ 
+  <image name="background">
+      <pos>2 2</pos>
+  </image>
+  <helpsystem name="help">
+	  <pos>2 2</pos>
+  </helpsystem>
+  
+  <image name="bg_gamelist" extra="true">
+    <color>3a4449</color>
+    <tile>true</tile>
+    <pos>0 0</pos>
+	<colorEnd>000000df</colorEnd>
+	<gradientType>vertical</gradientType>
+    <origin>0 0</origin>
+    <size>0.3 1</size>
+    <zIndex>5</zIndex>
+    <path>./_arte/capa-color.png</path>
+    </image>
+  <image name="bgfondo_gradient" extra="true"> 
+    <color>1c1c1cdb</color>
+    <tile>true</tile>
+    <pos>0.3 0</pos>
+    <colorEnd>343e40BB</colorEnd>
+	<gradientType>horizontal</gradientType>
+	<origin>0 0</origin>
+    <size>0.01 1</size>
+    <zIndex>7</zIndex>
+    <path>./_arte/capa-color.png</path>
+    </image>  
+  <image name="bg_fondo2" extra="true"> 
+    <color>000000df</color>
+    <tile>true</tile>
+    <pos>0.3 0</pos>
+    <origin>0 0</origin>
+    <size>0.7 1</size>
+	<colorEnd>343e40</colorEnd>
+	<gradientType>vertical</gradientType>
+    <zIndex>5</zIndex>
+    <path>./_arte/capa-color.png</path>
+    </image>
+   <textlist name="gamelist">
+      <selectorColor>${ColordelSelectorMenu}</selectorColor>
+      <selectedColor>${ColorSeleccionMenu}</selectedColor>
+      <primaryColor>${primaryColorMenu}</primaryColor>
+      <secondaryColor>${secondaryColorMenu}</secondaryColor>
+      <fontPath>./_arte/SONY-Regular.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.001 0.23</pos>
+      <size>0.3 0.665</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.03</horizontalMargin>
+      <fontSize>0.035</fontSize>
+      <scrollSound>./_arte/sonidos/menusound.wav</scrollSound>
+    </textlist>
+    <text name="logoText">
+      <pos>0.038 0.034</pos>
+	  <size>0.22 0.14</size>
+      <maxSize>0.23 0.14</maxSize>
+      <origin>0 0</origin>
+      <alignment>center</alignment>
+      <fontSize>0.08</fontSize>
+      <fontPath>./_arte/SONY-Regular.otf</fontPath>
+      <!--<alignment>left</alignment>-->
+      <color>${baseColor}</color>
+      <forceUppercase>true</forceUppercase>
+    </text>
+    <image name="logo">
+      <!-- try png -->
+      <path>./_arte/logos/${system.theme}.png</path>
+      <path>./_arte/logos/${system.theme}.svg</path>
+      <!-- SI EXISTE X EJ megadrive2.svg ,USA ESTA VERSION -->
+      <!-- <path>./_arte/logos/${system.theme}2.svg</path> -->
+      <!--<pos>0.266 0.074</pos><maxSize>0.460 0.126</maxSize>-->
+      <pos>0.038 0.034</pos>
+	  <size>0.22 0.14</size>
+      <maxSize>0.23 0.14</maxSize>
+      <origin>0 0</origin>
+    </image>
+    <text name="md_developer">
+      <color>${colorDeveloper}</color>
+      <pos>0.085 0.92</pos>
+      <size>0.18 0.07</size>
+      <alignment>left</alignment>
+      <fontSize>0.017</fontSize>
+	  <glowColor>000000df</glowColor>
+      <glowSize>1</glowSize>
+	  <forceUppercase>1</forceUppercase>
+    </text>    
+    <rating name="md_rating">
+      <pos>0.77 0.057</pos>
+      <size>0.048 0.048</size>
+      <color>FFFF00</color>
+      <unfilledColor>808080</unfilledColor>
+	  <filledPath>./_arte/imgs/playstation-logo-car-interior-design-png-logo-28.png</filledPath>
+	  <unfilledPath>./_arte/imgs/playstation-logo-car-interior-design-png-logo-28-sin-puntuar.png</unfilledPath>
+    </rating>
+    <text name="md_lbl_players">
+      <pos>0.775 0.81</pos>
+	  <color>ffffff</color>
+	  <glowColor>000000df</glowColor>
+      <glowSize>1</glowSize>
+      <size>0.09 0</size>
+    </text>
+    <text name="md_players">
+      <color>000000</color>
+	  <glowColor>${glowColor}</glowColor>
+      <glowSize>1</glowSize>
+      <pos>0.882 0.84</pos>
+      <size>0.2 0</size>
+    </text>
+    <text name="md_lbl_releasedate">
+      <color>ffffff</color>
+	  <glowColor>000000df</glowColor>
+      <glowSize>1</glowSize>
+      <pos>0.755 0.895</pos>
+      <size>0.2 0</size>
+	  <zIndex>197</zIndex>
+    </text>
+    <datetime name="md_releasedate">
+    <color>000000</color>
+	  <glowColor>ffffffdf</glowColor>
+      <glowSize>1</glowSize>
+      <pos>0.88 0.895</pos>
+      <size>0 0.033</size>
+    </datetime>	
+  </customView>
+  
 <!-- INDICADORES, HORA Y ACTIVIDAD DEL MANDO -->	
   <view name="screen">
     <text name="clock">
