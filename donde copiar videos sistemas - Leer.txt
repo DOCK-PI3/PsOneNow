@@ -1,0 +1,5 @@
+La carpeta PACK dentro del theme trae unos cuantos ejemplo.... hay que copiar el video con el nombre del sistema en formato .mp4
+
+Descargar pack de videos complementarios : https://drive.google.com/file/d/1FpQX_XpFkeSTSnI60wSt-unC1DVSRbu1/view?usp=sharing
+
+COPIAR VIDEOS EN : _arte\bgv-sistemas\PACK
